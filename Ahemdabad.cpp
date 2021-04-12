@@ -28,7 +28,7 @@ int main()
 
 	sf::Text text3;
 	text3.setFont(font);
-	text3.setString("Rent without House : 28\nRent with 1 House : $30\nRent with 2 House : $32\nRent with 3 House : $34\nRent with 4 House : $38\nRent with Hotel : $42\n\nMortage Value : $170\nCost of House : $70\nCost of Hotel : $90\n");
+	text3.setString("Rent without House : 28\nRent with 1 House : $30\nRent with 2 House : $32\nRent with 3 House : $34\nRent with 4 House : $38\nRent with Hotel : $42\n\nMortage Value : $140\nCost of House : $70\nCost of Hotel : $90\n");
 	text3.setPosition(220, 170);
 	text3.setFillColor(sf::Color::Black);
 
