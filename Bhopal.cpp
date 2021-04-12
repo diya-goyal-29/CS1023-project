@@ -21,7 +21,7 @@ int main()
 
 	sf::Text text2;
 	text2.setFont(font);
-	text2.setString("Cost : $140");
+	text2.setString("Cost : $160");
 	text2.setPosition(330, 120);
 	text2.setFillColor(sf::Color::Black);
 	text2.setStyle(sf::Text::Bold | sf::Text::Underlined);
