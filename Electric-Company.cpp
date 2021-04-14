@@ -46,6 +46,30 @@ int main()
 	rect2.setOutlineThickness(5);
 	rect2.setOutlineColor(sf::Color::White);
 
+	sf::RectangleShape rect3(sf::Vector2f(100, 50));
+	rect3.setPosition(50, 300);
+	rect3.setOutlineThickness(5);
+	rect3.setOutlineColor(sf::Color::White);
+	rect3.setFillColor(sf::Color(255, 10, 100));
+
+	sf::RectangleShape rect4(sf::Vector2f(100, 50));
+	rect4.setPosition(650, 300);
+	rect4.setOutlineThickness(5);
+	rect4.setOutlineColor(sf::Color::White);
+	rect4.setFillColor(sf::Color(255,10,100));
+
+	sf::Text text4;
+	text4.setFont(font);
+	text4.setString("BUY");
+	text4.setPosition(70, 305);
+	text4.setStyle(sf::Text::Bold);
+
+	sf::Text text5;
+	text5.setFont(font);
+	text5.setString("LEAVE");
+	text5.setPosition(660, 305);
+	text5.setStyle(sf::Text::Bold);
+
 
 	while (window.isOpen()) {
 
@@ -56,6 +80,26 @@ int main()
 
 				window.close();
 			}
+			if ((sf::Mouse::getPosition(window).x >= 45 && sf::Mouse::getPosition(window).x <= 150) && (sf::Mouse::getPosition(window).y >= 295 && sf::Mouse::getPosition(window).y <= 355)) {
+
+				if (event.type == sf::Event::MouseButtonPressed) {
+					if (event.mouseButton.button == sf::Mouse::Left) {
+						//enter the buying details
+					
+					}
+				}
+
+			}
+			if ((sf::Mouse::getPosition(window).x >= 645 && sf::Mouse::getPosition(window).x <= 750) && (sf::Mouse::getPosition(window).y >= 295 && sf::Mouse::getPosition(window).y <= 355)) {
+
+				if (event.type == sf::Event::MouseButtonPressed) {
+					if (event.mouseButton.button == sf::Mouse::Left) {
+						//enter the leaving details
+					
+					}
+				}
+
+			}
 
 		}
 		window.clear();
@@ -65,6 +109,10 @@ int main()
 		window.draw(text2);
 		window.draw(sprite);
 		window.draw(text3);
+		window.draw(rect3);
+		window.draw(rect4);
+		window.draw(text4);
+		window.draw(text5);
 		
 		window.display();
 		
