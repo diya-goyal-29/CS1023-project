@@ -21,14 +21,14 @@ int main()
 
 	sf::Text text2;
 	text2.setFont(font);
-	text2.setString("Cost : $80");
+	text2.setString("Cost : $60");
 	text2.setPosition(330, 120);
 	text2.setFillColor(sf::Color::Black);
 	text2.setStyle(sf::Text::Bold | sf::Text::Underlined);
 
 	sf::Text text3;
 	text3.setFont(font);
-	text3.setString("Rent without House : 8\nRent with 1 House : $10\nRent with 2 House : $30\nRent with 3 House : $90\nRent with 4 House : $160\nRent with Hotel : $250\n\nMortage Value : $40\nCost of House : $40\nCost of Hotel : $70\n");
+	text3.setString("Rent without House : $6\nRent with 1 House : $20\nRent with 2 House : $40\nRent with 3 House : $90\nRent with 4 House : $160\nRent with Hotel : $250\n\nMortage Value : $40\nCost of House : $40\nCost of Hotel : $70\n");
 	text3.setPosition(220, 170);
 	text3.setFillColor(sf::Color::Black);
 
