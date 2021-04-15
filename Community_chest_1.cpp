@@ -53,26 +53,6 @@ int main()
 
 				window.close();
 			}
-			if ((sf::Mouse::getPosition(window).x >= 45 && sf::Mouse::getPosition(window).x <= 150) && (sf::Mouse::getPosition(window).y >= 295 && sf::Mouse::getPosition(window).y <= 355)) {
-
-				if (event.type == sf::Event::MouseButtonPressed) {
-					if (event.mouseButton.button == sf::Mouse::Left) {
-						//enter the buying details
-					
-					}
-				}
-
-			}
-			if ((sf::Mouse::getPosition(window).x >= 645 && sf::Mouse::getPosition(window).x <= 750) && (sf::Mouse::getPosition(window).y >= 295 && sf::Mouse::getPosition(window).y <= 355)) {
-
-				if (event.type == sf::Event::MouseButtonPressed) {
-					if (event.mouseButton.button == sf::Mouse::Left) {
-						//enter the leaving details
-					
-					}
-				}
-
-			}
 
 		}
 		window.clear();
