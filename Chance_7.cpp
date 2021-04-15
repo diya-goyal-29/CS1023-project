@@ -5,7 +5,7 @@
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "CHance");
+	sf::RenderWindow window(sf::VideoMode(800, 600), "Chance");
 	sf::Font font;
 	if (!font.loadFromFile("C:/Users/DEEPAK GOYAL/Downloads/Champagne & Limousines.ttf"))
 	{
